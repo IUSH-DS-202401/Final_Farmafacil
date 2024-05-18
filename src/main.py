@@ -1,11 +1,13 @@
 import tkinter as tk
-from screens import MainMenu
+from screens import Pharmacy
+from modules.stack import Stack
 
 class App(tk.Tk):
     def __init__(self):
         super().__init__()
         self.title("Farma Facil")
-        self.current_screen = MainMenu(self)
+        stackPharmacy = Stack()
+        self.current_screen = Pharmacy(self, stackPharmacy)
         self.current_screen.pack()
     
     def show_screen(self, screen_class):
