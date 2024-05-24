@@ -1,7 +1,6 @@
 Proyecto Farmafacil
 
-
-Documentación del Proyecto de Desarrollo de Software
+1. Documentación del Proyecto de Desarrollo de Software
 
 Descripción General del Proyecto:
 
@@ -167,7 +166,7 @@ Casos de Uso Específicos: Si tienes garantías sobre cómo se insertarán los d
 
  Estructura del Código usado para las ventanas 
 
-1. Clase Screen:
+a. Clase Screen:
    - La clase `Screen` establece las características fundamentales para crear una pantalla en la aplicación.
    - Esta clase sirve como base para la creación de otras pantallas en el sistema.
    - Constructor: `__init__(self, master=None)`.
@@ -176,12 +175,12 @@ Casos de Uso Específicos: Si tienes garantías sobre cómo se insertarán los d
      - Establece el color de fondo de la pantalla.
      - Organiza y muestra la pantalla en la ventana principal.
 
-2. Diseño de Pantallas:
+b. Diseño de Pantallas:
    - Se utilizan widgets de Tkinter para diseñar las interfaces gráficas de usuario.
    - Se crean labels, se establecen propiedades como texto, fuente, color de fondo y color de primer plano.
 
 
-Diagrama de Caso de Uso - Administrador
+2. Diagrama de Caso de Uso - Administrador
 
 Descripción:
 
@@ -201,6 +200,8 @@ La Farmacia puede autenticarse en el sistema.
 Una vez autenticada, puede acceder a las opciones de la Farmacia, que incluyen la gestión del inventario de medicamentos (inclusión y actualización) y la visualización de información de medicamentos.
 
 
+3. Diagramas de flujo
+4. 
 Inicio
     |
 Autenticarse en el sistema
